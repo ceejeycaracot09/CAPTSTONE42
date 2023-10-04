@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Terms_and_Conditions">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms and Conditions"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="80dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="always"
+        android:scrollbars="vertical"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Effective Date: August 4, 2023"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Welcome to JobCONNECT! This platform is designed to connect job seekers with potential employers through our skill and experienced-based recommendation engine. Before using our services, please read the following Terms and Conditions carefully."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Acceptance of Terms"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="By accessing or using JobCONNECT, you agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, you must refrain from using our platform.
+"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Service Description"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="JobCONNECT is a job-matching platform that utilizes a recommendation engine to match job seekers with suitable job opportunities based on their skills and experience. However, we do not guarantee employment and are not responsible for any outcomes resulting from the use of our service."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eligibility"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="You must be 18 years or older to use JobCONNECT. By using our platform, you represent and warrant that you have the legal capacity to enter into these Terms and Conditions."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="User Accounts"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="To access certain features of JobCONNECT, you may need to create a user account. You are responsible for maintaining the confidentiality of your account credentials and any actions taken through your account. Notify us immediately of any unauthorized use or breach of security.
+"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="UUser Responsibilities"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a. You agree to provide accurate and up-to-date information in your profile."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b. You are solely responsible for the content you submit on JobCONNECT, including your resume, cover letters, and other materials."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c. You must not engage in any activity that could harm the platform or its users, such as uploading malware or engaging in fraudulent practices."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Privacy"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Our Privacy Policy outlines how we collect, use, and protect your personal information. By using JobCONNECT, you consent to our data practices as described in the Privacy Policy."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:text="Intellectual Property"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="All content provided on JobCONNECT, including logos, trademarks, and software, is the property of JobCONNECT or its licensors and is protected by intellectual property laws."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:text="Limitation of Liability"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="JobCONNECT is provided on an as is basis, and we disclaim all warranties and liabilities, whether express or implied, arising from the use of our platform."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:text="Indemnification"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="You agree to indemnify and hold JobCONNECT harmless from any claims, damages, or liabilities resulting from your use of our platform or violation of these Terms and Conditions."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:text="Modifications to Terms"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="JobCONNECT may update these Terms and Conditions at any time without prior notice. It is your responsibility to review the most current version before using our platform."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:text="Termination"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="JobCONNECT reserves the right to suspend or terminate your access to the platform at any time, with or without cause."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:text="Governing Law"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="These Terms and Conditions shall be governed by and construed in accordance with the laws of Philippines.
+Thank you for using JobCONNECT! We hope our platform helps you find your dream job. If you have any questions or concerns, please contact us at jobconnect0617@gmail.com."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="By using our service, you agree to these Terms and Conditions."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:text="With love, JobCONNECT Team"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

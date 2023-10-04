@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Freelance.View_Job_Details">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"
+        android:layout_marginLeft="80dp"/>
+
+    <ImageView
+        android:id="@+id/returnImageButton"
+        android:layout_width="19dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/return_mode" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:overScrollMode="always"
+        android:scrollbars="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/company_bg"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/company_logo"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Systems Administrator"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Naxos Global Distribution Limited Inc. (ROHQ)"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Makati City"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Job Highlights"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Up to 14th months' pay"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flexible working hours and hybrid setup"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HMO Coverage w/ dependents"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Job Description"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Key Responsibilities"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Install and configure operating systems, install new/rebuild existing servers and configure hardware, peripherals, storage, directories etc;"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diagnose and resolve hardware, software, networking and system issues as they arise;"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ensure company data is stored securely and backed up regularly;"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Provide efficient support to all employee requests for technical assistance;"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Make recommendations on computer hardware and software procurement including requesting quotes from suppliers;"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maintain records and monitor inventory of all computer hardware and software resources;"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Provide regular reports and updates to management that will help in analysis and decision-making;"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Communicate with ISPs during internet downtime, contract renewal etc."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perform other reasonable tasks that may be assigned."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Qualifications"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Candidate must have at least a Bachelor’s/College Degree in any computer or engineering related courses;"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Preferably with at least 3 years work experience as Systems Administrator;"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Background with CISCO routers and switches, internet firewalls, Office 365, Microsoft products"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Knowledge in AWS cloud and basic database administration is added advantage"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trustworthy, customer oriented and with excellent communication skills"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Additional Information"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Career Level - 1-4 Years Experienced Employee"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qualification - Bachelor's/College Degree"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Years of Experience - 3 years"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Job Type - Full-Time"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Job Specializations - Computer/Information Technology, IT-Network/Sys/DB Admin"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/applyButton"
+        android:backgroundTint="#FDA905"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Accept"
+        android:textColor="@color/black"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="650dp" />
+
+</RelativeLayout>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".Job_Progress">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/check"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/small_line"
+            android:layout_marginTop="44dp"
+            android:backgroundTint="#FDA905"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/check"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/small_line"
+            android:backgroundTint="#FDA905" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/check"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/small_line"
+            android:backgroundTint="#FDA905" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/check"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/small_line"
+            android:backgroundTint="#FDA905" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/check"
+            android:layout_marginTop="30dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/small_line"
+            android:backgroundTint="#FDA905" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/check"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:onClick="expand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#C3C0C0">
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Application and Proposal"
+                    android:padding="10dp"
+                    android:drawablePadding="80dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:drawableRight="@drawable/baseline_remove_red_eye_24"/>
+
+               <TextView
+                   android:id="@+id/details_post"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="18sp"
+                   android:visibility="gone"
+                   android:text="Details of The Job Here A freelance writing sample is a document that proves to a client that you can write. A writing sample can take many forms, and usually depends on the type of writing services you specialize in–be that blog posts, emails, whitepapers, short stories, or landing pages. A writing sample is key if you’re new to freelance writing."
+                   />
+                <LinearLayout
+                    android:id="@+id/message_viewpost"
+                    android:visibility="gone"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginLeft="150dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/messages"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/baseline_message_24"/>
+
+                    <ImageButton
+                        android:id="@+id/view_post"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/baseline_preview_24"
+                        />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#C3C0C0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="2. Agreement"
+                android:drawablePadding="190dp"
+                android:padding="10dp"
+                android:drawableRight="@drawable/baseline_remove_red_eye_24"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#C3C0C0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Week Execution"
+                android:padding="10dp"
+                android:drawablePadding="152dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:drawableRight="@drawable/baseline_remove_red_eye_24"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#C3C0C0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Project Completion"
+                android:padding="10dp"
+                android:drawablePadding="125dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:drawableRight="@drawable/baseline_remove_red_eye_24"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#C3C0C0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Ratings and Feedback"
+                android:padding="10dp"
+                android:drawablePadding="105dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:drawableRight="@drawable/baseline_remove_red_eye_24"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#C3C0C0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. Payment"
+                android:padding="10dp"
+                android:drawablePadding="210dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:drawableRight="@drawable/baseline_remove_red_eye_24"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+
+</FrameLayout>

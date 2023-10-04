@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="JobCONNECT"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JobCONNECTUI"
+        tools:targetApi="31">
+        <activity
+            android:name=".rate_us_dialog_layout"
+            android:exported="false" />
+        <activity
+            android:name=".Rate_Us"
+            android:exported="false" />
+        <activity
+            android:name=".message_jobseeker"
+            android:exported="false" />
+        <activity
+            android:name=".View_Profile_Hirer_Menu"
+            android:exported="false" />
+        <activity
+            android:name=".JobSeeker_Menu"
+            android:exported="false" />
+        <activity
+            android:name=".Freelance.View_Notification_Job_Seeker"
+            android:exported="false" />
+        <activity
+            android:name=".Edit_Profile_Main"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Hirer"
+            android:exported="false" />
+        <activity
+            android:name=".Freelance.Freelance_View_Job_Details_Home"
+            android:exported="false" />
+        <activity
+            android:name=".WebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Hirer_Network_EditPost"
+            android:exported="false" />
+        <activity
+            android:name=".network_Report_Hirer"
+            android:exported="false" />
+        <activity
+            android:name=".Recommend_Hirer_Invites"
+            android:exported="false" />
+        <activity
+            android:name=".Invites_hirer_see_details"
+            android:exported="false" />
+        <activity
+            android:name=".Job_Applicatioon_Network_Details_Hirer"
+            android:exported="false" />
+        <activity
+            android:name=".View_job_Applications_Hirer"
+            android:exported="false" />
+        <activity
+            android:name=".View_Profile_Hirer_Invite_main"
+            android:exported="false" />
+        <activity
+            android:name=".Report_User_Hirer_main"
+            android:exported="false" />
+        <activity
+            android:name=".Freelance.Report_User_Hirer"
+            android:exported="false" />
+        <activity
+            android:name=".View_JobDescription_Hirer"
+            android:exported="false" />
+        <activity
+            android:name=".View_Profile_Jobseeker_Details"
+            android:exported="false" />
+        <activity
+            android:name=".Report_User"
+            android:exported="false" />
+        <activity
+            android:name=".View_Job_Description"
+            android:exported="false" />
+        <activity
+            android:name=".Edit_Profile_Section"
+            android:exported="false" />
+        <activity
+            android:name=".Forgot_Password"
+            android:exported="false" />
+        <activity
+            android:name=".Edit_Profile_Job_Seeker"
+            android:exported="false" />
+        <activity
+            android:name=".Edit_Profile_Hirer"
+            android:exported="false" />
+        <activity
+            android:name=".Terms_and_Conditions"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Freelance.View_JobDescription_Hirer"
+            android:exported="false" />
+        <activity
+            android:name=".Freelance.View_Job_Details"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Details_View"
+            android:exported="false" />
+        <activity
+            android:name=".Freelance.Profile_Hirer_Menu"
+            android:exported="false" />
+        <activity
+            android:name=".Update_Profile_Hirer_and_Subscriber"
+            android:exported="false" />
+        <activity
+            android:name=".Freelance_Job_Seeker_Main"
+            android:exported="false" />
+        <activity
+            android:name=".Freelance_Hirer_Main"
+            android:exported="false" />
+        <activity
+            android:name=".Subscribe_Freelance_Hirer"
+            android:exported="false" />
+        <activity
+            android:name=".Job_Seeker_Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Hirer_Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

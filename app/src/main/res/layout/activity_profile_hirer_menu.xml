@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Freelance.Profile_Hirer_Menu">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_dark_background"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/profile_bg"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/return_mode"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/baseline_report_24"/>
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/profile_pic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Joshua L."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:id="@+id/view_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Profile"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="100dp"/>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="105dp"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOME"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/rate_App"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate App"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help and FeedBacks"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy and Policy"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/logout"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

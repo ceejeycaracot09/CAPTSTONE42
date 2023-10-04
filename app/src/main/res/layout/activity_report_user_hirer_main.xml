@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Report_User_Hirer_main">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/logo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please select a problem"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="If someone is in immediate danger, get help before reporting to JobCONNECT. Don’t wait."/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:overScrollMode="always">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pretending to be someone"/>
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fake account"/>
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fake name"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Privacy and Security Concerns"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Spam or Misuse of the Platform"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Non-Compliance with Platform Policies"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Scams and Fraudulent Listings"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SUnrealistic Job Offers"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Duplicate or Repetitive Listings"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Expired or Outdated Listings"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Misleading Job Descriptions"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Suspicious Emails"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Something else"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/Continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

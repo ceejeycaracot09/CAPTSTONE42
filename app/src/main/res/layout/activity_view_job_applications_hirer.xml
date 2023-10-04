@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View_job_Applications_Hirer">
+
+    <ImageView
+        android:id="@+id/returnImageButton"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/return_mode"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"
+        android:layout_marginLeft="40dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/jobDetailsCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EAEAEA"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="115dp">
+
+        <ImageView
+            android:id="@+id/edit_post_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_icons"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/company_logo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Systems Administrator"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="5dp"
+            android:text="Naxos Global Distribution Limited Inc. (ROHQ)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="5dp"
+            android:text="Makati City"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="5dp"
+            android:text="PHP 23k-27k monthly"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="5dp"
+            android:text="Up to 14th months' pay"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="5dp"
+            android:text="Flexible working hours and hybrid setup"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="5dp"
+            android:text="HMO Coverage w/ dependents"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/job_application"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Job Application" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/invites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invites" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/Recommended"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recommended" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewpager"
+        android:layout_marginTop="365dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+</RelativeLayout>

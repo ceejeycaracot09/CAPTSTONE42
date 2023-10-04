@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Edit_Profile_Section">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"/>
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/skillsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#FDA905"
+            android:text="Featured"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Licence and Certification"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:backgroundTint="#FDA905"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Projects"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:backgroundTint="#FDA905"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Courses"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:backgroundTint="#FDA905"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Honor and Awards"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:backgroundTint="#FDA905"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Languages"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:backgroundTint="#FDA905"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Organizations"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:backgroundTint="#FDA905"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="References"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:backgroundTint="#FDA905"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

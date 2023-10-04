@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Home_Job_Seeker_Fragment">
+
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/seachView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/search_view_bg"
+        app:queryHint="Search Job..."
+        app:iconifiedByDefault="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Spinner
+        android:id="@+id/filterSpinner"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/baseline_edit_note_24"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="320dp"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/search_view_bg"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="180dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="always"
+        android:scrollbars="vertical"
+        android:layout_marginTop="215dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Recommended For You"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="See all"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="280dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/jobDetailsCardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E9E8E8"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp">
+
+                <Button
+                    android:id="@+id/savedButton"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/baseline_bookmarks_24"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="250dp" />
+
+                <ImageView
+                    android:id="@+id/searchButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/baseline_remove_red_eye_24"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="280dp"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/company_logo"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Systems Administrator"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:text="Naxos Global Distribution Limited Inc. (ROHQ)"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:text="Makati City"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                        android:text="PHP 23k-27k monthly"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="130dp"
+                    android:text="Up to 14th months' pay"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="150dp"
+                    android:text="Flexible working hours and hybrid setup"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="170dp"
+                    android:text="HMO Coverage w/ dependents"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E9E8E8"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/baseline_bookmarks_24"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="250dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/baseline_remove_red_eye_24"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="280dp"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/company_logo1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IT Specialist"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:text="J ESSENTIALZ MARKETING CORPORATION"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:text="Quezon City"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:text="PHP 18,000 - PHP 25,000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="130dp"
+                    android:text="Directly reports to the management, not limited to a fixed income"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E9E8E8"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/baseline_bookmarks_24"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="250dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/baseline_remove_red_eye_24"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="280dp"/>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/company_logo2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IT Officer"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:text="Mc Wilson Corporation"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:text="Makati City/Quezon City"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:text="PHP 23k-27k monthly"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="130dp"
+                    android:text="Up to 14th months' pay"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="150dp"
+                    android:text="Career growth and good environment!"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="170dp"
+                    android:text="HMO, Paid Leaves, Discounts"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="190dp"
+                    android:text="Free Meal, Company Events and more!"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E9E8E8"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/baseline_bookmarks_24"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="250dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/baseline_remove_red_eye_24"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="280dp"/>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/company_logo2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IT Officer"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:text="Mc Wilson Corporation"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:text="Makati City/Quezon City"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:text="PHP 23k-27k monthly"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="130dp"
+                    android:text="Up to 14th months' pay"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="150dp"
+                    android:text="Career growth and good environment!"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="170dp"
+                    android:text="HMO, Paid Leaves, Discounts"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="190dp"
+                    android:text="Free Meal, Company Events and more!"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E9E8E8"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/baseline_bookmarks_24"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="250dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/baseline_remove_red_eye_24"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="280dp"/>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/company_logo3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IT- Sysops"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:text="InfiniVAN Inc."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:text="Makati City"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:text="PHP 30,000 - PHP 40,000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="130dp"
+                    android:text="FREE Breakfast"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="150dp"
+                    android:text="Shuttle Van"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="170dp"
+                    android:text="HMO, Paid Leaves, Discounts"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="190dp"
+                    android:text="50% discount at Shinagawa Lasik"/>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Other Job Site Listings"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="See all"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="280dp" />
+            </androidx.cardview.widget.CardView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/otherJobListing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#E9E8E8"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/baseline_bookmarks_24"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="170dp" />
+
+                    <ImageView
+                        android:id="@+id/webview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/baseline_remove_red_eye_24"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="200dp"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/company_logo3"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IT- Sysops"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="100dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:text="InfiniVAN Inc."/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="80dp"
+                        android:text="Makati City"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="100dp"
+                        android:text="PHP 30,000 - PHP 40,000"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="130dp"
+                        android:text="FREE Breakfast"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="150dp"
+                        android:text="Shuttle Van"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="170dp"
+                        android:text="HMO, Paid Leaves, Discounts"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="190dp"
+                        android:text="50% discount at Shinagawa Lasik"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#E9E8E8"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/baseline_bookmarks_24"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="170dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/baseline_remove_red_eye_24"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="200dp"/>
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/company_logo4"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IT Specialist"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="100dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:text="Robinsons Supermarket Corporation"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="80dp"
+                        android:text="National Capital Reg."/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="100dp"
+                        android:text="PHP 16,000 - PHP 22,400"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="130dp"
+                        android:text="FREE Breakfast"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="150dp"
+                        android:text="Shuttle Van"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="170dp"
+                        android:text="HMO, Paid Leaves, Discounts"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#E9E8E8"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/baseline_bookmarks_24"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="170dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/baseline_remove_red_eye_24"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="200dp"/>
+
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/company_logo5"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Network Engineer"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="100dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:text="GUR LAVI, CORP."/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="80dp"
+                        android:text="San Juan City"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="100dp"
+                        android:text="PHP 16,000 - PHP 22,400"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="130dp"
+                        android:text="HMO and Insurance upon Onboarding"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="150dp"
+                        android:text="Additional Leaves"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="170dp"
+                        android:text="Flexible Schedule"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

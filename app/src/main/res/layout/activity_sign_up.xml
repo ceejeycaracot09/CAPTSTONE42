@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:layout_width="354dp"
+        android:layout_height="121dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="One step to a successful career"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="180dp"
+        android:layout_marginTop="150dp"
+        />
+    <ImageView
+        android:layout_width="112dp"
+        android:layout_height="100dp"
+        android:background="@drawable/jobs_icon"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="242dp"
+        android:layout_marginLeft="211dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/workercardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/workerFirstNameText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="First Name"
+                android:textSize="18sp"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="8dp"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/black"
+                app:cornerRadius ="20dp"/>
+
+            <EditText
+                android:id="@+id/workerLastNameText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Last Name"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="8dp"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
+
+            <EditText
+                android:id="@+id/workerEmailText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/black"
+                android:hint="Email"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="8dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
+
+            <EditText
+                android:id="@+id/workerPasswordText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/black"
+                android:hint="Password"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:drawablePadding="8dp"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                app:cornerRadius="20dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/employeecardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/employeeCompanyName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/black"
+                android:hint="Company Name"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/baseline_business_24"
+                android:drawablePadding="8dp"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"/>
+
+            <EditText
+                android:id="@+id/employeeEmailText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/black"
+                android:hint="Email"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="8dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
+
+            <EditText
+                android:id="@+id/employeePasswordText"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:drawablePadding="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/black"
+                android:hint="Password"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchCompatButton"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="30dp"
+        android:text="I'm a Hirer"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:thumb="@drawable/switch_thumb"
+        app:track="@drawable/switch_track"
+        />
+    <CheckBox
+        android:id="@+id/terms_and_conditions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms and Conditions"
+        android:textColor="@color/black"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="50dp"/>
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="30dp"
+        android:text="Sign Up"
+        android:textColor="@color/black"
+        android:layout_marginTop="570dp"
+        android:backgroundTint="#FDA905"
+        app:cornerRadius="25dp"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/black"
+        android:text="Already have an account?"/>
+    <TextView
+        android:id="@+id/already_Have_account"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="259dp"
+        android:text="Log in"
+        android:textColor="#FDA905"/>
+
+
+</RelativeLayout>

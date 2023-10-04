@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Subscribe_Freelance_Hirer">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/logo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:text="Unlock the Freelance Mode features for optimal job matching!"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="For only 500 pesos, you can access enhanced tools and opportunities tailored to freelance job seekers."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Benefits of Freelance Mode:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="- Priority matching with freelance job opportunities."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="- Advanced skill filters for targeted job  recommendations."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="- Real-time updates on freelance gigs and projects "/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Ready to elevate your freelance career?"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Subscribe now and take advantage of this one-time payment offer!"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Note: The subscription fee is non-refundable once the Freelance Mode features have been unlocked."/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/subscribeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subscribe Now"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="#FDA905"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/noThanksButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Thanks"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="#FDA905"
+        android:textColor="@color/black"/>
+
+  </FrameLayout>

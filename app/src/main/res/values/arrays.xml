@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="job_array">
+        <item>All Job Specializations</item>
+        <item>Accounting/Finance</item>
+        <item>Admin/Human Resources</item>
+        <item>Sales/Marketing</item>
+        <item>Arts/Media/Communications</item>
+        <item>Services</item>
+        <item>Hotel/Restaurants</item>
+        <item>Education/Training</item>
+        <item>Computer/Information Technology</item>
+        <item>Engineering</item>
+        <item>Manufacturing</item>
+        <item>Building/Construction</item>
+        <item>Sciences</item>
+        <item>Healthcare</item>
+
+        <!-- Add more options as needed -->
+    </string-array>
+
+    <string-array name="Accounting_sub_category">
+        <item>Audit and Taxation</item>
+        <item>General/Cost Accounting</item>
+        <item>Corporate Finance/Investment</item>
+        <item>Banking/Financial</item>
+    </string-array>
+
+
+    <string-array name="Human_Resources_sub_category">
+        <item>Clerical/Administrative Support</item>
+        <item>Human Resources</item>
+        <item>Secretarial/Executive Personal Assistant</item>
+        <item>Top Management</item>
+    </string-array>
+
+    <string-array name="Sales_Marketing_sub_category">
+        <item>Marketing/Business Dev</item>
+        <item>Sales-Corporate</item>
+        <item>Sales-Eng/Tech/IT</item>
+        <item>Sales-Financial Services</item>
+        <item>Retails Sales</item>
+        <item>Merchandising</item>
+        <item>Telesales/Telemarketing</item>
+        <item>E-commerse</item>
+        <item>Digital Marketing</item>
+    </string-array>
+
+    <string-array name="Arts_Media_Communicating_sub_category">
+        <item>Advertising</item>
+        <item>Arts/Creative Design</item>
+        <item>Entertainment</item>
+        <item>Public Relations</item>
+    </string-array>
+
+
+    <string-array name="Services_sub_category">
+        <item>Personal Care</item>
+        <item>Armed Forces</item>
+        <item>Social Services</item>
+        <item>Customer Services</item>
+        <item>Lawyer/Legal Asst.</item>
+        <item>Logistics/Supply Chain</item>
+        <item>Tech and Helpdesk Support</item>
+    </string-array>
+
+    <string-array name="Hotel_Restaurant_sub_category">
+        <item>Food/Beverage/Restaurant</item>
+        <item>Hotel Tourism</item>
+    </string-array>
+
+    <string-array name="Education_sub_category">
+        <item>Education</item>
+        <item>Training and Dev.</item>
+    </string-array>
+
+    <string-array name="Computer_IT_sub_category">
+        <item>IT-Software</item>
+        <item>IT-Hardware</item>
+        <item>IT-Networks/Sys/DB Admin</item>
+    </string-array>
+
+    <string-array name="Engineering_sub_category">
+        <item>Chemical Engineering</item>
+        <item>Electronics</item>
+        <item>Electrical</item>
+        <item>other Engineering</item>
+        <item>Environmental</item>
+        <item>Oil/Gas</item>
+        <item>Mechanical</item>
+        <item>Industrial Engineering</item>
+    </string-array>
+
+    <string-array name="Manufacturing_sub_category">
+        <item>Maintenance</item>
+        <item>Purchasing/Material Mgmt</item>
+        <item>Manufacturing</item>
+        <item>Process Control</item>
+        <item>Quality Assurance</item>
+    </string-array>
+
+    <string-array name="Building_sub_category">
+        <item>Property/Real Estate</item>
+        <item>Architect/Interior Design</item>
+        <item>Civil/Construction</item>
+        <item>Quantity Surveying</item>
+    </string-array>
+
+    <string-array name="Sciences_sub_category">
+        <item>Agriculture</item>
+        <item>Actuarial/Statistics</item>
+        <item>Food Tech/Nutritionist</item>
+        <item>Geology/Geophysics</item>
+        <item>Aviation</item>
+        <item>Biotechnology</item>
+        <item>Chemistry</item>
+        <item>Science and Technology</item>
+        <item>Biomedical</item>
+    </string-array>
+
+    <string-array name="Healthcare_sub_category">
+        <item>Practitioner/Medical Asst</item>
+        <item>Pharmacy</item>
+        <item>Diagnosis/Others</item>
+    </string-array>
+
+    <string-array name="Others_sub_category">
+        <item>Journalist/Editors</item>
+        <item>General Work</item>
+        <item>Publishing</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string-array name="filter">
+        <item>Salary/rate</item>
+        <item>Location</item>
+        <item>Full TIme</item>
+        <item>Part TIme</item>
+    </string-array>
+
+
+</resources>
